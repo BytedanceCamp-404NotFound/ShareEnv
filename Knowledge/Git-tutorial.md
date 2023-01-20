@@ -332,6 +332,10 @@ git gc以后，会消失一些什么信息？
 如果使用git reset --herd HEAD^回退了版本，会出现amend的未来提交
 可以使用reflog查看到，并且回退到未来的版本
 
+
+# git checkout origin main
+直接将主分支更新到本地的分支
+
 # 参考文献
 [GIT在线练习平台]https://learngitbranching.js.org/?locale=zh_CN
 https://blog.csdn.net/ajianyingxiaoqinghan/article/details/70544159
