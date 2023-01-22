@@ -333,8 +333,11 @@ git gc以后，会消失一些什么信息？
 可以使用reflog查看到，并且回退到未来的版本
 
 
-# git checkout origin main
+# git pull origin main
 直接将主分支更新到本地的分支
+
+# git fetch origin --prune
+远程分支和本地同步
 
 # 参考文献
 [GIT在线练习平台]https://learngitbranching.js.org/?locale=zh_CN
