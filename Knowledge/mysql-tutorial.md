@@ -36,4 +36,17 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 
 lsof -i:80
 
+
+
+
+
+
+
+
+
+CREATE DATABASE SimpleTikTok;
+
 # 参考资料
+
+
+https://www.cnblogs.com/rickiyang/p/14517120.html
