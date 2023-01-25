@@ -25,7 +25,7 @@ systemctl restart mysql
 use mysql;
 select User,authentication_string,Host from user;
 update user set authentication_string='' where user='root';--先将字段置空
-ALTER user 'root'@'localhost' IDENTIFIED BY 'root';--修改密码为yzx
+ALTER user 'root'@'%' IDENTIFIED BY 'cab955b6a72135c64be7c6a5a29232ac';--修改密码为yzx
 FLUSH PRIVILEGES;
 systemctl restart mysql
 
